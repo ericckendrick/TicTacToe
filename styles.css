@@ -1,0 +1,29 @@
+#board {
+  padding: 3em;
+  text-align: center;
+}
+.row {
+  margin: 0 auto;
+  width: 302px;
+}
+.row:after {
+  clear: both;
+}
+.tile {
+  width: 100px;
+  height: 100px;
+  float: left;
+  cursor: pointer;
+}
+.top {
+  border-bottom: 1px solid black;
+}
+.right {
+  border-left: 1px solid black;
+}
+.bottom {
+  border-top: 1px solid black;
+}
+.left {
+  border-right: 1px solid black;
+}
