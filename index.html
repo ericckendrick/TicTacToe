@@ -4,27 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Tic Tac Toe Exercise</title>
   </head>
   <body>
     <div class="container" id="board">
-      <h1>Tic Tac Toe</h1>
+      <h1>tic tac toe</h1>
+      <h2 class="message"></h2>
       <div class="row">
-        <div class="top left tile"></div>
-        <div class="top middle tile"></div>
-        <div class="top right tile"></div>
+        <div class="top left"></div>
+        <div class="top middle"></div>
+        <div class="top right"></div>
       </div>
       <div class="row">
-        <div class="center left tile"></div>
-        <div class="center tile"></div>
-        <div class="center right tile"></div>
+        <div class="center left"></div>
+        <div class="center"></div>
+        <div class="center right"></div>
       </div>
       <div class="row">
-        <div class="bottom left tile"></div>
-        <div class="bottom middle tile"></div>
-        <div class="bottom right tile"></div>
+        <div class="bottom left"></div>
+        <div class="bottom middle"></div>
+        <div class="bottom right"></div>
+      </div>
+      <div class="resetBtn">
+        <button id="reset">reset</button>
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
